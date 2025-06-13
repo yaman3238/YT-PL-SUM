@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.card {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    backdrop-filter: blur(25px) saturate(112%);
+    background-color: rgba(6, 6, 6, 0.221);
+}
+
+
+.card-image{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-image img{
+    border-radius: 15px;
+}
+
